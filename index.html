@@ -4,20 +4,53 @@
     <meta charset="UTF-8">
     <meta name="view port" content="width=device-width, initial-scale=1.0">
     <title>STEMii - E-learng Platform</title>
+
+    <!-- IconScout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <nav>
-        <div class="container nav-container">
-            <a href="index.html"><h4>STEMii</h4></a>
-            <ul>
+        <div class="container nav__container">
+            <a href="index.html"><h4 style="color:aqua; font-size:  x-large;">STEMii</h4></a>
+            <ul class="nav__menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="courses.html">Courses</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
+            <button id="open-menu-btn"><i class='uil uil-bars'></i></button>
+            <button id="open-menu-btn"><i class='uil uil-multiply'></i></button>
         </div>
     </nav>
+
+    <!--============================ End of NavBar =============================-->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">  
+                <h1>Unlock <span style="color:aqua">Curiosity</span>, Explore STEM With <span style="color:aqua">STEMii</span></h1>
+                <p>STEMii is an online learning platform that offers courses in Science, Technology, Engineering and Mathematics. Our courses are designed to help you learn and explore the world of STEM.</p>
+                <a href="couress.html" class="btn btn-brimary">Get Started</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg" alt="Header Image">
+                </div>
+            </div>
+    </header>
+
+    <!--============================ End of Header =============================-->
+
+
 </body>
 </html>
