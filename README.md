@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # STEMii - E-Learning Platform for STEM Education
 
 STEMii is an innovative e-learning platform designed to provide high-quality education in the fields of Science, Technology, Engineering, and Mathematics (STEM). This README file provides an overview of the platform and its features.
@@ -35,3 +36,18 @@ We welcome contributions to enhance the STEMii platform. If you have any suggest
 ## Contact
 
 For any inquiries or support, please contact our team at [srunvirakyuth215@gmail.com].
+=======
+# Welcome to STEMii!
+
+STEMii is an e-learning platform designed to help students learn STEM (Science, Technology, Engineering, and Mathematics) subjects. Whether you're a beginner or an advanced learner, STEMii provides a comprehensive set of resources and interactive learning materials to enhance your understanding and skills in STEM fields.
+
+## Features
+
+- **Interactive Lessons**: Engage in interactive lessons that cover a wide range of STEM topics, including physics, mathematics, computer science, and more.
+- **Hands-on Projects**: Apply your knowledge through hands-on projects that encourage practical learning and problem-solving.
+- **Quizzes and Assessments**: Test your understanding with quizzes and assessments to track your progress and identify areas for improvement.
+- **Community Support**: Connect with a community of learners, mentors, and experts to collaborate, ask questions, and share knowledge.
+- **Personalized Learning**: Customize your learning experience based on your interests, goals, and skill level.
+
+Happy learning!
+>>>>>>> Stashed changes
