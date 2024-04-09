@@ -11,10 +11,10 @@
 :root{
     --color-primary: #6c63ff;
     --color-success: #00bf8e;
-    --color-warning: #f7b924;
+    --color-warning: #f77a14;
     --color-danger: #ff3d71;
     --color-danger-vaiant: rgba(206, 68, 114, 0.1);
-    --color-white: #fff;
+    --color-white: #ffffff;
     --color-black: #000;
     --color-bg: linear-gradient(100deg, #153677, #4e085f);
     --color-bg-1: #2e3267;
@@ -80,7 +80,7 @@ img{
 
 .btn {
     display: inline-block;
-    background: var(--color-white);
+    background: var(--color-warning);
     color: var(--color-black);
     padding: 1rem 2rem;
     font-weight: 500;
@@ -239,4 +239,37 @@ header {
 
 .category p {
     font-size: 0.85rem;
+}
+
+/* ============================ Popular Courses =============================--> */
+.courses {
+    margin-top: 10rem;
+}
+
+.courses__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0 6rem;
+}
+
+.course {
+    background: var(--color-bg-1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.course:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.course__info {
+    padding: 2rem;
+}
+
+.course__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
 }
