@@ -547,11 +547,44 @@ footer ul li a:hover {
         padding: 1.5rem;
     }
 
-
-    /* ============================ TESTIMONIALS =============================--> */    
-
     /* ============================ FOOTER =============================--> */
     .footer__container {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ============================ MEDIA QUERIES (Mobile) =============================--> */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    /* ============================ NAVBAR =============================--> */
+    .nav__menu {
+        right: 3%;
+    }
+
+    /* ============================ HEADER =============================--> */
+    header {
+        height: 100vh;
+    }
+
+    .header__container {
+        text-align: center;
+
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+
+    .header__left {
+        margin-top: 3rem;
+        margin-bottom: 1.3rem;
+        z-index: 1;
+    }
+    
+    .header__right {
+        margin-bottom: 3rem;
+        z-index: 2;
     }
 }
