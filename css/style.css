@@ -571,7 +571,6 @@ footer ul li a:hover {
 
     .header__container {
         text-align: center;
-
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
         margin-top: 0;
@@ -579,12 +578,20 @@ footer ul li a:hover {
 
     .header__left {
         margin-top: 3rem;
-        margin-bottom: 1.3rem;
         z-index: 1;
+    }
+
+    .header__left p {
+        margin-bottom: 1.3rem;
     }
     
     .header__right {
         margin-bottom: 3rem;
         z-index: 2;
+    }
+
+    /* ============================ CATEGORIES =============================--> */
+    .categories__container {
+        grid-template-columns: 1fr;
     }
 }
