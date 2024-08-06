@@ -1,0 +1,13 @@
+/* =================== Achievement =================== */
+.about__achievements {
+  margin-top: 3rem;
+}
+
+.about__achievements-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    height: 1000px;
+    
+}
+

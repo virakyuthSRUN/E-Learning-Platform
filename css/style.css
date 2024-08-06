@@ -591,7 +591,43 @@ footer ul li a:hover {
     }
 
     /* ============================ CATEGORIES =============================--> */
-    .categories__container {
+    .categories__right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .category {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .categories__icon {
+        margin-top: 4px;
+        display: inline-block;
+    }
+    
+    /* ============================ POPULAR COURSES =============================--> */
+    .courses__container {
+        grid-template-columns: 1fr; 
+    }
+
+    /* ============================ TESTIMONIALS =============================--> */
+    .testimonial_body {
+        padding: 1.2rem;
+    }
+
+    /* ============================ FOOTER =============================--> */
+    .footer__container {
         grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .footer_1 p {
+        margin: 1rem auto;
+    }
+
+    .footer__socials {
+        justify-content: center;
     }
 }
