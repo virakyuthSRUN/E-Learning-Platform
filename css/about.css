@@ -116,3 +116,50 @@
 .team__member-socials a {
   padding: 0.8rem;
 }
+
+/* =================== Media Queries (Tablets) =================== */
+@media screen and (max-width: 1024px) {
+  .about__achievements {
+    margin-top: 1rem;
+  }
+  
+  .about__achievements-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .about__achievements-left {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .team__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .team__member {
+    padding: 1rem;
+  }
+}
+
+/* =================== Media Queries (Phones) =================== */
+@media screen and (max-width: 600px) {
+  .achievement_cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .team__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .team__member {
+    padding: 0;
+  }
+
+  .team__member p {
+    margin-bottom: 1.5rem;
+  }
+}
