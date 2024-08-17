@@ -3,6 +3,8 @@
 
 STEMii is an innovative e-learning platform designed to provide high-quality education in the fields of Science, Technology, Engineering, and Mathematics (STEM). This README file provides an overview of the platform and its features.
 
+**Hosted Here:*** https://virakyuthsrun.github.io/E-Learning-Platform/
+
 ## Features
 
 - **Comprehensive Course Catalog**: STEMii offers a wide range of courses covering various STEM subjects, including physics, chemistry, computer science, mathematics, and more. Each course is carefully curated by experts in the respective fields.
