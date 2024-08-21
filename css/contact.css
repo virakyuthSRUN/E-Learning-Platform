@@ -149,6 +149,5 @@ input, textarea {
     grid-template-columns: 40% 60%;
     gap: 4rem;
     height: 30rem;
-    margin: 3rem auto;
     border-radius: 1rem;
 }
